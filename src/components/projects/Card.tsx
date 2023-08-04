@@ -21,9 +21,9 @@ const projects: Project[] = [
   },
   {
     id: 1,
-    src: '/project1.png',
+    src: '/project2.png',
     githubLink: 'https://github.com/cplxx',
-    linkedinLink: 'https://arcanth.vercel.app/',
+    linkedinLink: 'https://lading-page-discord.vercel.app/',
   },
 ]
 
