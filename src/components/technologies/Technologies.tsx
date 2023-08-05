@@ -22,7 +22,7 @@ import { TbBrandNextjs } from 'react-icons/tb'
 
 export default function Technologies() {
   return (
-    <section className=" flex animate-bg-subindo flex-col items-start justify-center gap-24 bg-black bg-[url('/color-sharp.png')] bg-cover bg-center bg-no-repeat md:h-screen ">
+    <section className="flex animate-bg-subindo flex-col items-start justify-center gap-24 bg-black bg-[url('/color-sharp.png')] bg-cover bg-center bg-no-repeat md:h-screen">
       <div className="mx-10 md:mx-80">
         <Text
           text="Tecnologias"
@@ -30,8 +30,8 @@ export default function Technologies() {
           tag1="&#10092; / h1 &#10093;"
         />
       </div>
-      <div className="flex flex-wrap items-center gap-4 md:px-96">
-        <div className="flex flex-wrap items-center justify-center gap-4">
+      <div className="flex flex-wrap justify-center gap-4 md:px-10 lg:px-40 xl:px-80">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-8">
           <SkillCard title="HTML" icon={<BiLogoHtml5 />} />
           <SkillCard title="CSS" icon={<BiLogoCss3 />} />
           <SkillCard title="JavaScript" icon={<RiJavascriptFill />} />
