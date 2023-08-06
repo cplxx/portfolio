@@ -6,7 +6,7 @@ import { RiSpaceShipLine } from 'react-icons/ri'
 
 export function Services() {
   return (
-    <section className=" flex animate-bg-subindo flex-col items-start justify-center gap-24 bg-black md:h-screen">
+    <section className="flex h-full animate-bg-subindo flex-col items-start justify-center gap-24 bg-black md:h-screen">
       <div className="mx-10 md:mx-80">
         <Text
           text="Meus serviços"
@@ -14,7 +14,7 @@ export function Services() {
           tag1="&#10092; / h1 &#10093;"
         />
       </div>
-      <div className="flex w-full flex-wrap items-center justify-center  gap-8">
+      <div className="flex w-full flex-wrap items-center justify-center gap-4">
         <Card
           icon={<SiStardock />}
           text="Motion"

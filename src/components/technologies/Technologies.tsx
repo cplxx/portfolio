@@ -31,7 +31,7 @@ export default function Technologies() {
         />
       </div>
       <div className="flex flex-wrap justify-center gap-4 md:px-10 lg:px-40 xl:px-80">
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-8">
+        <div className="flex flex-wrap items-center justify-center gap-4">
           <SkillCard title="HTML" icon={<BiLogoHtml5 />} />
           <SkillCard title="CSS" icon={<BiLogoCss3 />} />
           <SkillCard title="JavaScript" icon={<RiJavascriptFill />} />

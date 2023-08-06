@@ -54,7 +54,7 @@ export const CardProjects: React.FC = () => {
   }
 
   return (
-    <ul className="flex flex-wrap items-center justify-center gap-4">
+    <ul className="flex flex-wrap items-center justify-center gap-10">
       {projects.map((project) => (
         <li key={project.id}>
           <motion.div

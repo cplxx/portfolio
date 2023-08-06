@@ -11,7 +11,7 @@ export function Projects() {
           tag1="&#10092; / h1 &#10093;"
         />
       </div>
-      <div className="flex w-full flex-wrap items-center justify-center gap-8">
+      <div className="flex w-full flex-wrap items-center justify-center ">
         <CardProjects />
       </div>
     </section>
