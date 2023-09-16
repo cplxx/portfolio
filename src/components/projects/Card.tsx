@@ -20,10 +20,16 @@ const projects: Project[] = [
     linkedinLink: 'https://arcanth.vercel.app/',
   },
   {
-    id: 1,
+    id: 2,
     src: '/project2.png',
     githubLink: 'https://github.com/cplxx',
     linkedinLink: 'https://lading-page-discord.vercel.app/',
+  },
+  {
+    id: 3,
+    src: '/simplex.png',
+    githubLink: 'https://github.com/cplxx',
+    linkedinLink: 'https://simplex-five.vercel.app/',
   },
 ]
 
@@ -65,7 +71,7 @@ export const CardProjects: React.FC = () => {
             onMouseLeave={() => setShowButtons(null)}
           >
             <motion.div
-              className="border-palette-2 relative h-64 border md:w-11/12 lg:w-full"
+              className="border-palette-2 relative h-64 border sm:-1/2 md:w-11/12 lg:w-full mx-1"
               initial={{ opacity: 1 }}
               whileHover={{ opacity: 0.8 }}
               animate={{ opacity: 1 }}
@@ -74,7 +80,7 @@ export const CardProjects: React.FC = () => {
               <img
                 src={project.src}
                 alt=""
-                className="h-full w-full object-cover"
+                className="h-full object-cover"
               />
 
               <AnimatePresence>

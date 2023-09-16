@@ -32,21 +32,21 @@ export default function Technologies() {
       </div>
       <div className="flex flex-wrap justify-center gap-4 md:px-10 lg:px-40 xl:px-80">
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <SkillCard title="HTML" icon={<BiLogoHtml5 />} />
-          <SkillCard title="CSS" icon={<BiLogoCss3 />} />
-          <SkillCard title="JavaScript" icon={<RiJavascriptFill />} />
-          <SkillCard title="Typescript" icon={<BiLogoTypescript />} />
-          <SkillCard title="Git" icon={<BiLogoGit />} />
-          <SkillCard title="GitHub" icon={<BiLogoGithub />} />
-          <SkillCard title="React" icon={<BiLogoReact />} />
-          <SkillCard title="NextJS" icon={<TbBrandNextjs />} />
-          <SkillCard title="Vite" icon={<SiVite />} />
-          <SkillCard title="Tailwind" icon={<BiLogoTailwindCss />} />
-          <SkillCard title="Sass" icon={<BiLogoSass />} />
-          <SkillCard title="Styled" icon={<SiStyledcomponents />} />
-          <SkillCard title="Node.js" icon={<BiLogoNodejs />} />
-          <SkillCard title="Express" icon={<SiExpress />} />
-          <SkillCard title="Mongo" icon={<SiMongodb />} />
+          <SkillCard  icon={<BiLogoHtml5 />} />
+          <SkillCard icon={<BiLogoCss3 />} />
+          <SkillCard  icon={<RiJavascriptFill />} />
+          <SkillCard  icon={<BiLogoTypescript />} />
+          <SkillCard icon={<BiLogoGit />} />
+          <SkillCard  icon={<BiLogoGithub />} />
+          <SkillCard  icon={<BiLogoReact />} />
+          <SkillCard  icon={<TbBrandNextjs />} />
+          <SkillCard  icon={<SiVite />} />
+          <SkillCard  icon={<BiLogoTailwindCss />} />
+          <SkillCard  icon={<BiLogoSass />} />
+          <SkillCard  icon={<SiStyledcomponents />} />
+          <SkillCard  icon={<BiLogoNodejs />} />
+          <SkillCard icon={<SiExpress />} />
+          <SkillCard  icon={<SiMongodb />} />
         </div>
       </div>
     </section>

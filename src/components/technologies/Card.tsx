@@ -4,11 +4,11 @@ import React, { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 
 interface SkillCardProps {
-  title: string
+
   icon: React.ReactNode
 }
 
-const SkillCard: React.FC<SkillCardProps> = ({ title, icon }) => {
+const SkillCard: React.FC<SkillCardProps> = ({  icon }) => {
   const [isHovered, setIsHovered] = useState(false)
   const [rotateX, setRotateX] = useState(0)
   const [rotateY, setRotateY] = useState(0)
@@ -56,9 +56,6 @@ const SkillCard: React.FC<SkillCardProps> = ({ title, icon }) => {
       style={{ perspective: '600px' }}
     >
       <motion.p className="text-6xl text-purple-500">{icon}</motion.p>
-      <div>
-        <h3 className="text-lg font-semibold text-palete-2">{title}</h3>
-      </div>
     </motion.div>
   )
 }
